@@ -1,5 +1,3 @@
 def oxford_comma(array)
-  array
+  "#{(array.first array.size - 1).join(',')}, and #{array.last}"
 end
-
-['a', 'b', 'c'][:-1]
